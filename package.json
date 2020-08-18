@@ -1,23 +1,24 @@
 {
-  "name": "uploadback",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "start": "ts-node-dev --respawn src/index.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/cors": "^2.8.6",
-    "@types/express": "^4.17.7",
-    "@types/multer": "^1.4.3",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "multer": "^1.4.2",
-    "ts-node-dev": "^1.0.0-pre.54",
-    "typescript": "^3.9.7"
-  }
+	"name": "@yehuozhili/simpleupload",
+	"version": "1.0.0",
+	"private": false,
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "ts-node-dev --respawn src/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/cors": "^2.8.6",
+		"@types/express": "^4.17.7",
+		"@types/multer": "^1.4.3",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"multer": "^1.4.2",
+		"ts-node-dev": "^1.0.0-pre.54",
+		"typescript": "^3.9.7"
+	}
 }
